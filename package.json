@@ -1,11 +1,11 @@
 {
-  "name": "perspective-viewer-template",
+  "name": "perspective-viewer-treemap",
   "version": "0.0.1",
   "main": "src/js/plugin/plugin.js",
   "files": [
-      "build/**/*"
+    "build/**/*"
   ],
-  "author": "",
+  "author": "matt-hooper",
   "license": "Apache-2.0",
   "scripts": {
     "start": "webpack-dev-server",
@@ -36,5 +36,21 @@
     "webpack": "^4.29.5",
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.1.14"
-  }
+  },
+  "description": "This project is a template for creating new viewer plugins for [Perspective](https://github.com/jpmorganchase/perspective).",
+  "directories": {
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matt-hooper/perspective-viewer-treemap.git"
+  },
+  "keywords": [
+    "perspective",
+    "treemap"
+  ],
+  "bugs": {
+    "url": "https://github.com/matt-hooper/perspective-viewer-treemap/issues"
+  },
+  "homepage": "https://github.com/matt-hooper/perspective-viewer-treemap#readme"
 }
