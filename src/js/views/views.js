@@ -7,7 +7,8 @@
  *
  */
 
-import view1 from "./view-1";
+import packView from "./packView";
+import treemap from "./treemap";
 
-const views = [view1];
+const views = [packView, treemap];
 export default views;
